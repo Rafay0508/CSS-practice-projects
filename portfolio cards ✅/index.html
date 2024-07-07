@@ -1,0 +1,171 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Three Column Portfolio</title>
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/19b72192bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header
+      class="bg-black flex items-center p-3 text-white relative border-b-2 border-gray-400 max-lg:justify-between"
+    >
+      <!-- logo -->
+      <h1 class="text-[22px] text-gray-400 pl-40 max-lg:pl-1">myPortfolio</h1>
+      <!-- nav hamberger for small screens -->
+      <span class="lg:hidden">
+        <input type="checkbox" class="hidden" id="checkbox" />
+        <i
+          class="fa-solid fa-bars text-[22px] cursor-pointer"
+          id="toggle"
+        ></i> </span
+      ><!-- nav items -->
+      <div class="w-1/3 flex justify-evenly max-lg:hidden">
+        <a href="#" class="cursor-pointer text-[18px]">About</a>
+        <a href="#" class="cursor-pointer text-[18px]">Service</a>
+        <a href="#" class="cursor-pointer text-[18px]">Contact</a>
+      </div>
+    </header>
+    <div
+      class="bg-black w-1/3 flex flex-col p-3 w-full text-gray-400 h-[30%] justify-evenly absolute max-lg:hidden lg:hidden"
+      id="item-toggle"
+    >
+      <a href="#" class="cursor-pointer text-[18px]">About</a>
+      <a href="#" class="cursor-pointer text-[18px]">Service</a>
+      <a href="#" class="cursor-pointer text-[18px]">Contact</a>
+    </div>
+
+    <!-- cards -->
+
+    <!-- heading -->
+    <div class="flex items-center m-5 pb-2 border-b-2 ml-[10%]">
+      <p class="text-[32px] font-semibold max-md:text-2xl">3 Col Portfolio</p>
+      <p class="text-[22px] text-gray-500 ml-2 pt-2">Showcase Your Work</p>
+    </div>
+
+    <!-- cards -->
+    <div
+      id="cards"
+      class="w-[90%] flex gap-6 flex-wrap ml-[10%] max-lg:ml-[6%]"
+    >
+      <div id="card" class="min-w-[25%] md:max-w-[25%]">
+        <img src="./assets/img1.jpg" />
+        <div>
+          <h1 class="text-[28px] text-blue-300 py-2">Project Name</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            mollitia praesentium perferendis molestias.
+          </p>
+        </div>
+      </div>
+      <div id="card" class="min-w-[25%] md:max-w-[25%]">
+        <img src="./assets/img1.jpg" />
+        <div>
+          <h1 class="text-[28px] text-blue-300 py-2">Project Name</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            mollitia praesentium perferendis molestias.
+          </p>
+        </div>
+      </div>
+      <div id="card" class="min-w-[25%] md:max-w-[25%]">
+        <img src="./assets/img1.jpg" />
+        <div>
+          <h1 class="text-[28px] text-blue-300 py-2">Project Name</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            mollitia praesentium perferendis molestias.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- pagination -->
+    <div id="pagination" class="my-[10%] pl-4 flex justify-center lg:my-[4%]">
+      <nav aria-label="Page navigation example">
+        <ul class="inline-flex -space-x-px text-sm">
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >Previous</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >1</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >2</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              aria-current="page"
+              class="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
+              >3</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >4</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >5</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >Next</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- copyright -->
+    <hr id="copyright" class="inline-block">
+    <p class="border-b-2 border-b-neutral-200"></p>
+      <p class="pl-4 ">Copyright Company &copy; 2019 </p>
+    </div>
+  </body>
+  <script>
+    // Wait for the DOM content to load before executing JavaScript
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get the element with id "toggle"
+      const toggle = document.getElementById("toggle");
+      const checkbox = document.getElementById("checkbox");
+      const item_toggle = document.getElementById("item-toggle");
+      // Add a click event listener
+      toggle.addEventListener("click", function () {
+        checkbox.checked = !checkbox.checked;
+        if (checkbox.checked) {
+          item_toggle.style.display = "flex";
+        } else {
+          item_toggle.style.display = "none";
+        }
+      });
+    });
+  </script>
+</html>
