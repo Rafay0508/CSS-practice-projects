@@ -1,0 +1,481 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Educational Web Page</title>
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/19b72192bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="bg-white py-6 border-gray-200 dark:bg-gray-900 dark:border-gray-700"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="./assets/logo.png" class="h-10" alt="Flowbite Logo" />
+
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-multi-level"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-multi-level"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+          <ul
+            class="flex flex-col font-bold text-[13px] p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded md:bg-transparent md:text-green-400 md:p-0 md:dark:text-green-400 dark:bg-green-400 md:dark:bg-transparent"
+                aria-current="page"
+                >HOME</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-300 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >ABOUT US</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-300 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >COURSES</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-300 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-300 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >PRICING</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-300 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end here -->
+
+    <!-- crouser -->
+    <div
+      id="carouselExampleCaptions"
+      class="relative"
+      data-twe-carousel-init
+      data-twe-ride="carousel"
+    >
+      <!--Carousel indicators-->
+      <div
+        class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+        data-twe-carousel-indicators
+      >
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="0"
+          data-twe-carousel-active
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="1"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-twe-target="#carouselExampleCaptions"
+          data-twe-slide-to="2"
+          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!--Carousel items-->
+      <div
+        class="relative w-full overflow-hidden after:clear-both after:block after:content-['']"
+      >
+        <!--First item-->
+        <div
+          class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-active
+          data-twe-carousel-item
+          style="backface-visibility: hidden"
+        >
+          <img src="./assets/img1.jpg" class="block w-full" alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center bg-slate-100 bg-opacity-60 rounded-2xl text-white md:block"
+          >
+            <h5 class="text-6xl text-black">School Education</h5>
+            <p class="text-2xl text-black">
+              Get all courses with no-line content
+            </p>
+          </div>
+        </div>
+        <!--Second item-->
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-item
+          style="backface-visibility: hidden"
+        >
+          <img src="./assets/img2.jpg" class="block w-full" alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block"
+          >
+            <h5 class="text-xl">Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <!--Third item-->
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-twe-carousel-item
+          style="backface-visibility: hidden"
+        >
+          <img src="./assets/img3.jpg" class="block w-full" alt="..." />
+          <div
+            class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block"
+          >
+            <h5 class="text-xl">Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+
+      <!--Carousel controls - prev item-->
+      <button
+        class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button"
+        data-twe-target="#carouselExampleCaptions"
+        data-twe-slide="prev"
+      >
+        <span class="inline-block h-8 w-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </span>
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          >Previous</span
+        >
+      </button>
+      <!--Carousel controls - next item-->
+      <button
+        class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button"
+        data-twe-target="#carouselExampleCaptions"
+        data-twe-slide="next"
+      >
+        <span class="inline-block h-8 w-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </span>
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          >Next</span
+        >
+      </button>
+    </div>
+    <!-- crouser end here -->
+
+    <!-- courses -->
+    <div class="m-8 text-center">
+      <div id="courses-features">
+        <h1 class="text-4xl font-bold py-6">Our Featured Courses</h1>
+        <p class="text-gray-600 pb-3 lg:px-32">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+          porro consequatur aliquam, incidunt eius magni provident, doloribus
+          omnis minus temporibus perferendis nesciunt quam repellendus nulla
+          nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad
+          consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa
+          architecto non, magni consequuntur quam.
+        </p>
+      </div>
+      <div id="courses py-[20%]">
+        <div></div>
+      </div>
+    </div>
+    <!-- courses end here -->
+
+    <!-- reveiws -->
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-18 mx-auto">
+        <h1
+          class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"
+        >
+          Testimonials
+        </h1>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                carry neutra before they sold out fixie 90's microdosing. Tacos
+                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
+                authentic iceland.
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/106x106"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Holden Caulfield</span
+                  >
+                  <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036"
+              >
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                ></path>
+              </svg>
+              <p class="leading-relaxed mb-6">
+                Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                carry neutra before they sold out fixie 90's microdosing. Tacos
+                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
+                authentic iceland.
+              </p>
+              <a class="inline-flex items-center">
+                <img
+                  alt="testimonial"
+                  src="https://dummyimage.com/107x107"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                />
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900"
+                    >Alper Kamu</span
+                  >
+                  <span class="text-gray-500 text-sm">DESIGNER</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- reveiws end here -->
+
+    <!-- offered courses -->
+    <div class="m-8 text-center">
+      <div id="courses-features">
+        <h1 class="text-4xl font-bold py-6">Our Featured Courses</h1>
+        <p class="text-gray-600 pb-3 lg:px-32">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+          porro consequatur aliquam, incidunt eius magni provident, doloribus
+          omnis minus temporibus perferendis nesciunt quam repellendus nulla
+          nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad
+          consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa
+          architecto non, magni consequuntur quam.
+        </p>
+      </div>
+      <div
+        class="flex justify-center mx-[10%] my-8 my gap-5 text-left flex-wrap"
+      >
+        <div class="max-w-[30%] p-5 bg-gray-200 max-lg:max-w-[100%]">
+          <h3 class="py-3 font-bold text-[20px]">Heading Course</h3>
+          <p class="10px">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+            vest sit amet, consec ibulum molestie lacus. Aenean nonummy
+            hendrerit mauris. Phasellus porta.
+          </p>
+        </div>
+        <div class="max-w-[30%] p-5 bg-gray-200 max-lg:max-w-[100%]">
+          <h3 class="py-3 font-bold text-[20px]">Heading Course</h3>
+          <p class="10px">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+            vest sit amet, consec ibulum molestie lacus. Aenean nonummy
+            hendrerit mauris. Phasellus porta.
+          </p>
+        </div>
+        <div class="max-w-[30%] p-5 bg-gray-200 max-lg:max-w-[100%]">
+          <h3 class="py-3 font-bold text-[20px]">Heading Course</h3>
+          <p class="10px">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+            vest sit amet, consec ibulum molestie lacus. Aenean nonummy
+            hendrerit mauris. Phasellus porta.
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex justify-center mx-[10%] my-8 my gap-5 text-left flex-wrap"
+      >
+        <div class="max-w-[30%] p-5 bg-gray-200 max-lg:max-w-[100%]">
+          <h3 class="py-3 font-bold text-[20px]">Heading Course</h3>
+          <p class="10px">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+            vest sit amet, consec ibulum molestie lacus. Aenean nonummy
+            hendrerit mauris. Phasellus porta.
+          </p>
+        </div>
+        <div class="max-w-[30%] p-5 bg-gray-200 max-lg:max-w-[100%]">
+          <h3 class="py-3 font-bold text-[20px]">Heading Course</h3>
+          <p class="10px">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+            vest sit amet, consec ibulum molestie lacus. Aenean nonummy
+            hendrerit mauris. Phasellus porta.
+          </p>
+        </div>
+        <div class="max-w-[30%] p-5 bg-gray-200 max-lg:max-w-[100%]">
+          <h3 class="py-3 font-bold text-[20px]">Heading Course</h3>
+          <p class="10px">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+            vest sit amet, consec ibulum molestie lacus. Aenean nonummy
+            hendrerit mauris. Phasellus porta.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- offered courses end here -->
+
+    <!-- footer -->
+    <div
+      class="footer mt-5 p-10 bg-[#14a085] text-white lg:flex flex-col gap-6 justify-center"
+    >
+      <div class="flex justify-center gap-6 max-lg:flex-col">
+        <div>
+          <p class="font-bold my-6">Our Contact</p>
+          <p class="font-bold">Abovecompany Inc</p>
+          <p>JC Main Road, Near silnile tower</p>
+          <p>Pin-21542 NewYork US.</p>
+          <span class="my-6">
+            <p>(123)456-789 - 1255-12584</p>
+            <p>emil@domainname.com</p>
+          </span>
+        </div>
+
+        <div>
+          <p class="font-bold my-6">Latest Events</p>
+          <p>Latest Events</p>
+          <p>Terms and conditions</p>
+          <p>Privacy policy</p>
+          <p>Career</p>
+          <p>Contact us</p>
+        </div>
+
+        <div>
+          <p class="font-bold my-6">Latest posts</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Pellentesque et pulvinar enim. Quisque at tempor ligula</p>
+          <p>Natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div>
+          <p class="font-bold my-6">Recent News</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Pellentesque et pulvinar enim. Quisque at tempor ligula</p>
+          <p>Natus error sit voluptatem accusantium doloremque</p>
+        </div>
+      </div>
+      <div class="flex justify-between mt-5 max-lg:flex-col gap-5">
+        <p>© Above Site All right reserved. Template By WebThemez</p>
+        <p class="flex gap-5 flex-wrap">
+          <i class="fa-brands fa-facebook-f"></i
+          ><i class="fa-brands fa-twitter"></i
+          ><i class="fa-brands fa-linkedin"></i
+          ><i class="fa-brands fa-pinterest"></i
+          ><i class="fa-solid fa-envelope"></i>
+        </p>
+      </div>
+    </div>
+    <!-- footer end here -->
+
+    <script>
+      // Initialization for ES Users
+      import { Carousel, initTWE } from "tw-elements";
+
+      initTWE({ Carousel });
+    </script>
+  </body>
+</html>
