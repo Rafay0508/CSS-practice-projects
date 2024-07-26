@@ -1,0 +1,322 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon_icon.png" />
+    <title>Abdul Rafay | Software Developer</title>
+    <link rel="stylesheet" href="output.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playwrite+IN:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/19b72192bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-first-gray">
+    <!-- Header start here -->
+    <div
+      class="flex justify-between border-b-2 border-[#bcc6cb] shadow-md shadow-[#939ea3]"
+    >
+      <span class="font-logo-font text-[30px] text-black-500 m-4"
+        >Portfolio</span
+      >
+
+      <div
+        class="nav-items flex items-center gap-10 pr-48 max-lg:hidden"
+        id="desktop"
+      >
+        <p class="text-[24px] hover:underline decoration-[#F44336]">
+          <a href="#about">About</a>
+        </p>
+        <p class="text-[24px] hover:underline decoration-[#F44336]">
+          <a href="#skills">Skills</a>
+        </p>
+        <p class="text-[24px] hover:underline decoration-[#F44336]">
+          <a href="#education">Education</a>
+        </p>
+        <p class="text-[24px] hover:underline decoration-[#F44336]">
+          <a href="#open-source">My projects</a>
+        </p>
+        <p class="text-[24px] hover:underline decoration-[#F44336]">
+          <a href="#about">Resume</a>
+        </p>
+      </div>
+      <div
+        class="flex items-center m-4 cursor-pointer lg:hidden"
+        id="burger-menu"
+      >
+        <i class="fa-solid fa-bars text-[22px]"></i>
+      </div>
+    </div>
+    <input type="checkbox" id="menu" class="hidden" />
+    <div
+      class="mobile w-full hidden py-2 flex flex-col nav-items text-center gap-5 bg-[#f8837b] absolute z-10 lg:hidden"
+      id="menu-content"
+    >
+      <p class="text-[18px] mt-2 text-white"><a href="#about">About</a></p>
+      <p class="text-[18px] mt-2 text-white"><a href="#skills">Skills</a></p>
+      <p class="text-[18px] mt-2 text-white">
+        <a href="#education">Education</a>
+      </p>
+      <p class="text-[18px] mt-2 text-white">
+        <a href="#open-source">My Projects</a>
+      </p>
+      <p class="text-[18px] mt-2 text-white">
+        <a href="#about">Resume</a>
+      </p>
+    </div>
+    <!-- Header end here -->
+
+    <!-- About start here -->
+    <div class="p-1 md:relative" id="about">
+      <h1
+        class="text-[24px] m-3 mt-8 font-header-top-font lg:px-8 mb-0 lg:text-[44px]"
+      >
+        Hi all, I'm Abdul Rafay<i
+          class="fa-solid fa-hand"
+          style="color: #ffd43b"
+        ></i>
+      </h1>
+      <div class="flex flex-col md:flex-row lg:px-8 mt-0">
+        <p class="text-[18px] m-3 text-[#595353] lg:text-[30px]">
+          Dedicated and hardworking individual aspiring to excel as a Software
+          Developer🚀.
+          <span class="hidden md:block">
+            Eager to leverage skills in JavaScript, ReactJS, Node.js, MongoDB,
+            Firebase, and Redux Toolkit to contribute to the creation of
+            innovative web and mobile applications.</span
+          >
+        </p>
+        <img
+          src="./assets/top-gif.png"
+          width="300px"
+          class="p-4 m-auto md:-mt-12"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <p
+        class="flex justify-evenly mt-8 cursor-pointer md:justify-normal ml-4 gap-6 md:absolute top-[70%] lg:top-[100%] left-[4%] xl:top-[80%]"
+      >
+        <img
+          width="40px"
+          src="./assets/social-icons/github.png"
+          alt="github"
+          srcset=""
+        />
+        <img
+          width="40px"
+          src="./assets/social-icons/linkedin.png"
+          alt="linkedin"
+          srcset=""
+        />
+        <img
+          width="40px"
+          src="./assets/social-icons/email.png"
+          alt="email"
+          srcset=""
+        />
+        <img
+          width="40px"
+          src="./assets/social-icons/facebook.png"
+          alt="facebook"
+          srcset=""
+        />
+        <img
+          width="40px"
+          src="./assets/social-icons/whatsapp.png"
+          alt="whatsapp"
+          srcset=""
+        />
+      </p>
+      <div
+        class="my-8 md:absolute top-[90%] lg:top-[120%] left-8 xl:top-[100%]"
+      >
+        <button
+          class="m-3 ml-6 text-white bg-500 bg-[#F44336] border-0 py-2 px-6 focus:outline-none hover:bg-600 bg-[#F44336] rounded"
+        >
+          <a href="./assets/resume/Abdul Rafay Resume.pdf" download>Resume</a>
+        </button>
+
+        <button
+          class="m-3 text-white bg-500 bg-[#F44336] border-0 py-2 px-6 focus:outline-none hover:bg-600 bg-[#F44336] rounded"
+          type="button"
+        >
+          <a href="tel:+923112484593">Contact Me</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- About end here -->
+
+    <!-- Skills start here -->
+    <div class="md:mt-[15%] lg:mt-[24%] xl:mt-[8%]" id="skills">
+      <h1
+        class="text-[32px] text-center font-header-top-font underline underline-offset-8 decoration-300 decoration-[#F44336] lg:text-[48px]"
+      >
+        What i Do
+      </h1>
+      <p
+        class="m-4 text-center font-header-top-font text-[#595353] lg:text-[22px]"
+      >
+        Dedicated full Stack Developer who want to Explore every Tech Stack
+      </p>
+      <div class="flex flex-wrap justify-center p-4 gap-6">
+        <span class="text-center">
+          <i
+            class="fa-brands fa-html5 text-[40px] text-500 text-gray-500"
+            width="16px"
+          ></i>
+          <p class="text-gray-500 text-[12px] font-bold">HTML-5</p>
+        </span>
+        <span class="text-center"
+          ><i
+            class="fa-brands fa-css3-alt text-[40px] text-gray-500"
+            width="16px"
+          ></i>
+          <p class="text-gray-500 text-[12px] font-bold">CSS3</p></span
+        >
+        <span class="text-center">
+          <i
+            class="fa-brands fa-sass text-[40px] text-gray-500"
+            width="16px"
+          ></i>
+          <p class="text-gray-500 text-[12px] font-bold">SASS</p></span
+        >
+        <span class="text-center">
+          <i class="fa-brands fa-js text-[40px] text-gray-500" width="16px"></i>
+          <p class="text-gray-500 text-[12px] font-bold">JavaScript</p></span
+        >
+        <span class="text-center">
+          <i
+            class="fa-brands fa-react text-[40px] text-gray-500"
+            width="16px"
+          ></i>
+          <p class="text-gray-500 text-[12px] font-bold">ReactJS</p></span
+        >
+        <span class="text-center"
+          ><i
+            class="fa-brands fa-node text-[40px] text-gray-500"
+            width="16px"
+          ></i>
+          <p class="text-gray-500 text-[12px] font-bold">NodeJS</p></span
+        >
+        <span class="text-center"
+          ><i
+            class="fa-solid fa-fire text-[40px] text-gray-500"
+            width="16px"
+          ></i>
+          <p class="text-gray-500 text-[12px] font-bold">Firebase</p></span
+        >
+        <span class="text-center"
+          ><i
+            class="fa-solid fa-database text-[40px] text-gray-500"
+            width="16px"
+          ></i>
+          <p class="text-gray-500 text-[12px] font-bold">MongoDB</p></span
+        >
+      </div>
+      <img
+        src="./assets/skill-icon.svg"
+        class="text-orange w-[50%] m-auto"
+        alt=""
+        srcset=""
+      />
+    </div>
+
+    <!-- Skills end here -->
+
+    <!-- Education start here -->
+    <div id="education">
+      <h1
+        class="my-6 text-[32px] text-center font-header-top-font underline underline-offset-8 decoration-300 decoration-[#F44336] lg:text-[48px]"
+      >
+        Education
+      </h1>
+      <div class="px-4 md:flex justify-center gap-2">
+        <div
+          class="bachelors py-4 border-b-2 border-[#beb9b9] md:w-[30%] pr-2 border-r-2"
+        >
+          <img
+            src="./assets/SSUET_Logo.png"
+            class="m-auto my-4"
+            width="100px"
+          />
+          <div class="text-center">
+            <h1 class="font-initial-font font-bold text-[20px] my-2">
+              Sir Syed University of Science & Technology(SSUET), Karachi,
+              Pakistan
+            </h1>
+            <h1>Bachelor of Science in Computer Science</h1>
+            <p>2019-2024</p>
+            <p class="text-left ml-4">FYP: AlzAware Detection App</p>
+            <li>Application Detects Alzaware Disease using Machine Learning</li>
+          </div>
+        </div>
+
+        <div
+          class="Intermediate py-4 border-b-2 border-[#beb9b9] md:w-[30%] pr-2 border-r-2"
+        >
+          <img
+            src="./assets/college.png"
+            class="m-auto my-4 bg-transparent"
+            width="100px"
+          />
+          <div class="text-center">
+            <h1 class="font-bold text-[20px] font-header-top-font my-2">
+              Fazaia Intermediate College Malir Cantt, Karachi, Pakistan
+            </h1>
+            <h1>Pre-Engineering</h1>
+            <p>2017-2019</p>
+          </div>
+        </div>
+
+        <div
+          class="Schooling py-4 border-b-2 border-[#beb9b9] md:w-[30%] pr-2 border-r-2"
+        >
+          <img
+            src="./assets/school.png"
+            class="m-auto my-4 bg-transparent"
+            width="100px"
+          />
+          <div class="text-center">
+            <h1 class="font-bold text-[20px] font-header-top-font my-2">
+              Fauji Foundation Model School Malir Campus, Karachi, Pakistan
+            </h1>
+            <h1>Computer Science</h1>
+            <p>2005-2017</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Education end here -->
+
+    <!-- Open Source Portfolio start here -->
+    <div id="open-source">
+      <h1
+        class="my-6 mt-12 text-[48px] underline underline-offset-8 decoration-300 text-center font-header-top-font decoration-300 decoration-[#F44336]"
+      >
+        Open Source Platform
+      </h1>
+    </div>
+    <!-- Open Source Portfolio end here -->
+
+    <!-- Contact start here -->
+    <!-- Contact end here -->
+
+    <!-- footer start here -->
+    <div
+      class="footer font-footer-font text-center text-[16px] p-2 border-2 border-[#F44336]"
+    >
+      Copyright <span class="text-[#F44336] font-bold">&#169;</span> 2024 Abdul
+      Rafay. <br />All Right Reserved
+    </div>
+    <!-- footer end here -->
+    <script src="./script.js"></script>
+  </body>
+</html>
