@@ -19,61 +19,64 @@
   </head>
   <body class="bg-first-gray">
     <!-- Header start here -->
-    <div
-      class="flex justify-between border-b-2 border-[#bcc6cb] shadow-md shadow-[#939ea3]"
-    >
-      <span class="font-logo-font text-[30px] text-black-500 m-4"
-        >Portfolio</span
-      >
-
+    <header class="fixed w-full bg-first-gray z-10">
       <div
-        class="nav-items flex items-center gap-10 pr-48 max-lg:hidden"
-        id="desktop"
+        class="flex justify-between border-b-2 border-[#bcc6cb] shadow-md shadow-[#939ea3]"
       >
-        <p class="text-[24px] hover:underline decoration-[#F44336]">
-          <a href="#about">About</a>
-        </p>
-        <p class="text-[24px] hover:underline decoration-[#F44336]">
-          <a href="#skills">Skills</a>
-        </p>
-        <p class="text-[24px] hover:underline decoration-[#F44336]">
+        <span class="font-logo-font text-[30px] text-black-500 m-4"
+          >Portfolio</span
+        >
+
+        <div
+          class="nav-items flex items-center gap-10 pr-48 max-lg:hidden"
+          id="desktop"
+        >
+          <p class="text-[24px] hover:underline decoration-[#F44336]">
+            <a href="#about">About</a>
+          </p>
+          <p class="text-[24px] hover:underline decoration-[#F44336]">
+            <a href="#skills">Skills</a>
+          </p>
+          <p class="text-[24px] hover:underline decoration-[#F44336]">
+            <a href="#education">Education</a>
+          </p>
+          <p class="text-[24px] hover:underline decoration-[#F44336]">
+            <a href="#open-source">My projects</a>
+          </p>
+          <p class="text-[24px] hover:underline decoration-[#F44336]">
+            <a href="#about">Resume</a>
+          </p>
+        </div>
+        <div
+          class="flex items-center m-4 cursor-pointer lg:hidden"
+          id="burger-menu"
+        >
+          <i class="fa-solid fa-bars text-[22px]"></i>
+        </div>
+      </div>
+      <input type="checkbox" id="menu" class="hidden" />
+      <div
+        class="mobile w-full hidden py-2 flex flex-col nav-items text-center gap-5 bg-[#f8837b] z-10 lg:hidden"
+        id="menu-content"
+      >
+        <p class="text-[18px] mt-2 text-white"><a href="#about">About</a></p>
+        <p class="text-[18px] mt-2 text-white"><a href="#skills">Skills</a></p>
+        <p class="text-[18px] mt-2 text-white">
           <a href="#education">Education</a>
         </p>
-        <p class="text-[24px] hover:underline decoration-[#F44336]">
-          <a href="#open-source">My projects</a>
+        <p class="text-[18px] mt-2 text-white">
+          <a href="#open-source">My Projects</a>
         </p>
-        <p class="text-[24px] hover:underline decoration-[#F44336]">
+        <p class="text-[18px] mt-2 text-white">
           <a href="#about">Resume</a>
         </p>
       </div>
-      <div
-        class="flex items-center m-4 cursor-pointer lg:hidden"
-        id="burger-menu"
-      >
-        <i class="fa-solid fa-bars text-[22px]"></i>
-      </div>
-    </div>
-    <input type="checkbox" id="menu" class="hidden" />
-    <div
-      class="mobile w-full hidden py-2 flex flex-col nav-items text-center gap-5 bg-[#f8837b] absolute z-10 lg:hidden"
-      id="menu-content"
-    >
-      <p class="text-[18px] mt-2 text-white"><a href="#about">About</a></p>
-      <p class="text-[18px] mt-2 text-white"><a href="#skills">Skills</a></p>
-      <p class="text-[18px] mt-2 text-white">
-        <a href="#education">Education</a>
-      </p>
-      <p class="text-[18px] mt-2 text-white">
-        <a href="#open-source">My Projects</a>
-      </p>
-      <p class="text-[18px] mt-2 text-white">
-        <a href="#about">Resume</a>
-      </p>
-    </div>
+    </header>
     <!-- Header end here -->
 
     <!-- About start here -->
-    <div class="p-1 md:relative" id="about">
+
+    <div class="p-1 relative top-[70px]" id="about">
       <h1
         class="text-[24px] m-3 mt-8 font-header-top-font lg:px-8 mb-0 lg:text-[44px]"
       >
@@ -101,7 +104,7 @@
         />
       </div>
       <p
-        class="flex justify-evenly mt-8 cursor-pointer md:justify-normal ml-4 gap-6 md:absolute top-[70%] lg:top-[100%] left-[4%] xl:top-[80%]"
+        class="flex justify-evenly mt-8 cursor-pointer md:absolute top-[70%] left-[3%] md:gap-[16%] lg:top-[100%] lg:left-14"
       >
         <img
           width="40px"
@@ -135,7 +138,7 @@
         />
       </p>
       <div
-        class="my-8 md:absolute top-[90%] lg:top-[120%] left-8 xl:top-[100%]"
+        class="my-8 md:absolute top-[90%] lg:top-[120%] left-8 xl:top-[120%]"
       >
         <button
           class="m-3 ml-6 text-white bg-500 bg-[#F44336] border-0 py-2 px-6 focus:outline-none hover:bg-600 bg-[#F44336] rounded"
@@ -155,7 +158,7 @@
     <!-- About end here -->
 
     <!-- Skills start here -->
-    <div class="md:mt-[15%] lg:mt-[24%] xl:mt-[8%]" id="skills">
+    <div class="mt-[25%] xl:mt-[20%]" id="skills">
       <h1
         class="text-[32px] text-center font-header-top-font underline underline-offset-8 decoration-300 decoration-[#F44336] lg:text-[48px]"
       >
